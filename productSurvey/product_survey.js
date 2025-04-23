@@ -19,8 +19,6 @@ document.getElementById('userJob').innerHTML = job;
 document.getElementById('userDesignation').innerHTML = designation;
 document.getElementById('userProductChoice').innerHTML = productType;
 document.getElementById('userFeedback').innerHTML = feedback;
-
-
 }
 
 // const username= document.getElementById('name').value;
@@ -33,7 +31,7 @@ document.getElementById('userFeedback').innerHTML = feedback;
 
 const submitButton = document.getElementById('submitBtn');
 
-submitButton.onclick = submitFeedback;
+submitButton.onclick = submitFeedback ;
 
 // document.getElementById('userName').innerHTML = username;
 // document.getElementById('userAge').innerHTML = age;
